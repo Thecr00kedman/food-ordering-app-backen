@@ -11,6 +11,7 @@ import { options } from './config.js';
 
 
 const app = express();
+
 app.use(cors({
     origin: ["https://foodzone-b1d68.web.app/"],
     credentials: true,
