@@ -17,7 +17,7 @@ const DB_USERNAME=process.env.DB_USERNAME
 const DB_PASSWORD=process.env.DB_PASSWORD
 
 app.use(cors({
-    origin: ["https://foodzone-b1d68.web.app/"],
+    origin: ["https://foodzone-b1d68.web.app"],
     credentials: true,
     methods: ['GET', 'PUT', 'POST', 'DELETE']
 
